@@ -1,0 +1,142 @@
+.App {
+    background-image: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 120vh;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.spline1 {
+    width: 390px !important;
+    height: 470px !important;
+    position: absolute;
+    top: 265px;
+    right: 95px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding-top: 65px;
+    padding-left: 65px;
+    padding-right: 65px;
+    &__logo {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+    }
+    &__list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        :hover {
+            color: #b82444;
+        }
+        & li {
+            margin-right: 55px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        :last-child {
+            margin-right: 0;
+            padding: 10px 10px;
+            background-color: #b82444;
+            color: aliceblue;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.content {
+    color: white;
+    padding-top: 65px;
+    padding-left: 65px;
+    padding-right: 65px;
+    & h2 {
+        width: 488px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+    }
+    & span {
+        width: 354px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 141.69%;
+    }
+    & .btnground {
+        width: 354px;
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-around;
+        & button {
+            outline: none;
+            border: none;
+            width: 136px;
+            height: 50px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 17px;
+        }
+        :hover {
+            opacity: 0.8;
+        }
+        :first-child {
+            background-color: #b82444;
+            color: white;
+        }
+        :last-child {
+            color: white;
+            background: transparent;
+            border: 1px solid #b82444;
+        }
+    }
+}
+
+.buy {
+    display: flex;
+    & button {
+            outline: none;
+            border: none;
+            width: 136px;
+            height: 50px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 17px;
+            background-color: #b82444;
+            color: white;
+            margin-top: 100px;
+            margin-left: 100px;
+            cursor: pointer;
+    }
+    :hover {
+        opacity: 0.8;
+    }
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+    width: 417px;
+    height: 94px;
+    background: linear-gradient(91.03deg, rgba(70, 70, 70, 0.1) -47.11%, rgba(93, 93, 93, 0.1) 110.32%);
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 65px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
